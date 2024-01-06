@@ -2,7 +2,7 @@
 
 #include<stdio.h>
    int main(){
-    float Number1,Number2;
+    float a,b;
     printf("Enter the first value:-");
     scanf("%f",&a);
     printf("Enter the second value :-");
