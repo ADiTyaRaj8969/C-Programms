@@ -4,11 +4,12 @@
    int main(){
     float Number1,Number2;
     printf("Enter the first value:-");
-    scanf("%f",&Number1);
+    scanf("%f",&a);
     printf("Enter the second value :-");
-    scanf("%f",&Number2);
-    Number1 = Number2;
-    Number2 = Number1 ;
+    scanf("%f",&b);
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
     printf("After Swapping\n");
     printf("First Number is %f\n",Number1);
     printf("Second Number is %f\n",Number2);
